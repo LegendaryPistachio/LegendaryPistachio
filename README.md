@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @LegendaryPistachio
-- 👀 I’m interested in creative programming, especially in using the Flet framework to create custom components and custom interface templates.
+- 👀 I’m interested in creative programming, especially in using the Flet framework to create custom components and custom UI templates,and custom animation templates.
 - 🌱 I’m currently learning creative programming using the Flet framework.
 - 💞️ I’m looking to collaborate on independently innovating and creatively programming to develop custom components, custom UI templates, and custom animation templates using the Flet framework.
 - 📫 How to reach me: lxmcqkxg@outlook.com
