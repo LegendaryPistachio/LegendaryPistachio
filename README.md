@@ -14,3 +14,6 @@
 - 😄 代词：他/他的
 - ⚡ 趣事：传奇开心果因其独特的风味和口感而广受喜爱，成熟时壳通常会自然裂开，使坚果更容易取出。它们也被认为是最高品质的可食用开心果之一。这也真实反映了我的个性特征。
 
+
+
+![repository-open-graph-template](https://github.com/user-attachments/assets/90c6bee1-2054-4639-a8bc-649214222306)
