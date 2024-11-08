@@ -6,7 +6,8 @@
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: Legendary pistachios are widely loved for their unique flavor and texture, with shells that typically split open naturally when they mature, making the nuts easier to extract. They are also considered one of the highest quality varieties of edible pistachios. This is a true reflection of my personality traits as well.
 
-![repository-open-graph-template](https://github.com/user-attachments/assets/90c6bee1-2054-4639-a8bc-649214222306)
+![repository-open-graph-template](https://github.com/user-attachments/assets/cd1f7142-5f0c-4959-a3d7-d7b2bb8577d6)
+
 
 Invite friends to share and build the resource library FletCustomRepo
 
