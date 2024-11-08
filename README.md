@@ -17,3 +17,21 @@
 
 
 ![repository-open-graph-template](https://github.com/user-attachments/assets/90c6bee1-2054-4639-a8bc-649214222306)
+
+Invite friends to share and build the resource library FletCustomRepo
+
+My shared resource library, FletCustomRepo, already has 32 shared resources. Invite friends to browse the resources, download them for free, and share and build together. If you like it, please give a little star! Invite friends to comment and like!
+
+Address:
+
+https://github.com/LegendaryPistachio/FletCustomRepo
+
+https://gitee.com/lxm8838066518/FletCustomRepo
+
+Welcome friends to submit contributions!
+
+Contact Information:
+
+Email: lxmcqkxg@outlook.com
+
+WeChat: lxm1093220242
