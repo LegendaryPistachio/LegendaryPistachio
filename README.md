@@ -13,11 +13,7 @@
 - 📫 联系我：lxmcqkxg@outlook.com
 - 😄 代词：他/他的
 - ⚡ 趣事：传奇开心果因其独特的风味和口感而广受喜爱，成熟时壳通常会自然裂开，使坚果更容易取出。它们也被认为是最高品质的可食用开心果之一。这也真实反映了我的个性特征。
-
-
-
 ![repository-open-graph-template](https://github.com/user-attachments/assets/90c6bee1-2054-4639-a8bc-649214222306)
-
 Invite friends to share and build the resource library FletCustomRepo
 
 My shared resource library, FletCustomRepo, already has 32 shared resources. Invite friends to browse the resources, download them for free, and share and build together. If you like it, please give a little star! Invite friends to comment and like!
