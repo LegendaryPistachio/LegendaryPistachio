@@ -11,7 +11,7 @@
 
 Invite friends to share and build the resource library FletCustomRepo
 
-My shared resource library, FletCustomRepo, already has 32 shared resources. Invite friends to browse the resources, download them for free, and share and build together. If you like it, please give a little star! Invite friends to comment and like!
+My shared resource library, FletCustomRepo, already has 46 shared resources. Invite friends to browse the resources, download them for free, and share and build together. If you like it, please give a little star! Invite friends to comment and like!
 
 Address:
 
