@@ -1,0 +1,109 @@
+### Project Overview
+
+This project is a custom front-end and back-end framework for a multi-user web data table built using FastAPI and Flet. The front-end uses Flet to build a data table interface, while the back-end uses FastAPI to provide RESTful API and WebSocket services.
+
+### Directory Structure
+
+```plaintext
+my_project/
+├── main.py
+├── product_table_ui.py
+└── requirements.txt
+```
+
+### Main File Descriptions
+
+1. **`main.py`**: The back-end FastAPI application, providing RESTful API and WebSocket services.
+2. **`product_table_ui.py`**: The front-end Flet application, building the data table interface and connecting to the back-end services.
+3. **`requirements.txt`**: A file recording the project dependencies.
+
+### Running Steps
+
+#### 1. Create and Activate Virtual Environment
+
+It is recommended to use a virtual environment to manage project dependencies. Here are the steps to create and activate a virtual environment:
+
+```sh
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate  # Linux/MacOS
+.\venv\Scripts\activate  # Windows
+```
+
+#### 2. Install Project Dependencies
+
+Ensure you have activated the virtual environment, then install the required dependencies:
+
+```sh
+pip install fastapi
+pip install pydantic
+pip install sqlalchemy
+pip install asyncpg
+pip install uvicorn
+pip install flet
+pip install websockets
+pip install requests
+```
+
+Or, if you already have a `requirements.txt` file, you can install all dependencies directly:
+
+```sh
+pip install -r requirements.txt
+```
+
+#### 3. Initialize Database
+
+Ensure you have configured your PostgreSQL database and that the database URL is correct. Run the following command to initialize the database:
+
+```sh
+python main.py
+```
+
+On the first run, the FastAPI application will automatically initialize the database tables.
+
+#### 4. Start FastAPI Back-end Service
+
+Run the following command in the terminal to start the FastAPI service:
+
+```sh
+uvicorn main:app --reload
+```
+
+This will start a development server, defaulting to `127.0.0.1:8000`.
+
+#### 5. Start Flet Front-end Application
+
+In another terminal window, run the following command to start the Flet front-end application:
+
+```sh
+python product_table_ui.py
+```
+
+This will start the Flet application and open a browser window displaying the data table interface.
+
+### Feature Descriptions
+
+#### 1. **Add Product**
+
+- **Front-end**: Users can add a new product row by clicking the "Add Row" button.
+- **Back-end**: When the user submits new product data, the front-end sends a POST request to the `/add_product/` endpoint, and the back-end saves the data to the database and notifies all connected clients via WebSocket to update the data table.
+
+#### 2. **Get Product List**
+
+- **Front-end**: On initial load, the front-end fetches the product list from the `/get_products/` endpoint and displays it in the data table.
+- **Back-end**: Provides a GET endpoint `/get_products/`, returning all product data currently in the database.
+
+#### 3. **WebSocket Real-Time Updates**
+
+- **Front-end**: The front-end connects to the back-end via WebSocket and receives real-time notifications of new products, updating the data table accordingly.
+- **Back-end**: When a new product is added, the back-end sends a notification to all connected clients via WebSocket.
+
+### Notes
+
+1. **Database Configuration**: Ensure the `DATABASE_URL` is correctly configured to point to your PostgreSQL database.
+2. **Dependencies**: Ensure all dependencies are correctly installed.
+3. **Virtual Environment**: Always run the project within a virtual environment to avoid dependency conflicts.
+
+By following the above steps, you can successfully run and use this custom front-end and back-end framework for a multi-user web data table.
