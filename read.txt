@@ -1,0 +1,47 @@
+### Application Scenario Introduction
+
+#### 1. **Multi-User Real-Time Collaboration**
+   - **Application Scenario**: Multiple users can simultaneously access the same product data table to perform real-time viewing, adding, and deleting operations.
+   - **Features**:
+     - **Real-Time Updates**: Real-time communication between the front-end and back-end is achieved through WebSocket, ensuring that each user's operation is immediately reflected on all online users' interfaces.
+     - **Concurrency Handling**: Using FastAPI and SQLAlchemy's asynchronous ORM, it supports high-concurrency requests, ensuring system stability and response speed when multiple users operate simultaneously.
+
+#### 2. **Product Management**
+   - **Application Scenario**: Enterprises or teams can use this application to manage product information, including product name, SN number, specifications, quantity, and description.
+   - **Features**:
+     - **Data Persistence**: Product data is stored in a PostgreSQL database, ensuring data security and reliability.
+     - **Data Display**: The front-end interface built with Flet displays product data in a tabular format, supporting sorting and filtering functions.
+     - **Convenient Operations**: Provides functions to add and delete rows, making it easy for users to quickly modify product information.
+
+#### 3. **Data Visualization**
+   - **Application Scenario**: Intuitively display product data through charts and tables to help users better understand and analyze the data.
+   - **Features**:
+     - **Dynamic Updates**: The front-end interface dynamically updates based on data returned from the back-end, ensuring users see the latest data.
+     - **High Interactivity**: Users can add and delete rows by clicking buttons, and the interface will provide real-time feedback on the operation results.
+
+### Key Features
+
+#### 1. **Real-Time Communication**
+   - **WebSocket**: Real-time communication between the front-end and back-end is achieved using WebSocket, ensuring immediate feedback on user operations.
+   - **Asynchronous Notifications**: When a new product is added, the back-end asynchronously notifies all connected clients, which automatically update the data table.
+
+#### 2. **High Performance**
+   - **Asynchronous Framework**: Uses FastAPI and SQLAlchemy's asynchronous ORM to support high-concurrency requests, improving system performance.
+   - **Database Optimization**: Uses PostgreSQL database, supporting efficient queries and transaction processing, ensuring data consistency and integrity.
+
+#### 3. **User-Friendly Interface**
+   - **Flet**: The front-end interface is built using the Flet framework, providing a clean and aesthetically pleasing user interface.
+   - **Dynamic Table**: The table supports dynamic data loading, allowing users to view and operate on data in real-time.
+   - **Operation Buttons**: Provides buttons to add and delete rows, making it convenient for users to quickly modify data.
+
+#### 4. **Logging**
+   - **Log Configuration**: Uses Python's `logging` module to configure logging, recording important events such as application startup, database initialization, and WebSocket connections.
+   - **Error Handling**: Records error information in logs for debugging and maintenance.
+
+#### 5. **Security**
+   - **Data Validation**: Uses Pydantic models for data validation to ensure that input data meets expected formats.
+   - **Permission Control**: Although not implemented in the current example, user authentication and authorization mechanisms can be added in actual applications to ensure data security.
+
+### Summary
+
+This application template provides a complete solution suitable for scenarios requiring multi-user real-time collaboration in product management. By combining FastAPI and Flet, it achieves high performance, real-time updates, and a user-friendly interface, making it suitable for enterprises or teams to use.
